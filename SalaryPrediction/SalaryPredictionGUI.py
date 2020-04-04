@@ -125,6 +125,7 @@ class Pagetwo(tk.Frame):
         global insert
         
         tk.messagebox.showinfo("Prediction","The Predicted Salary is "+str(PredictionModel([[insert]])))
+        tk.messagebox.showinfo("Checkout","Checkout my github page for the source code https://github.com/Tarun-AKA-Eygle/SalaryPredictionModel")
         
         
         
