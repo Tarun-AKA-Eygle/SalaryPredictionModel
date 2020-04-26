@@ -34,7 +34,7 @@ class g(tk.Tk):
 class Startpage(tk.Frame):
     def __init__(self,parent,controller):
         tk.Frame.__init__(self,parent)
-        introduction='You work in the H.R. department of your company.\n While interviewing a person, you came to know that this salary of previous job was 30k.\nYou decided to fact check his clames.\nYou called his ex-company but due to some complicatiothey could only give you their dataset of one year.\nYour goal is to predict what his salary of previous job was....(Press Im in to proceed)'
+        introduction='You work in the H.R. department of your company.\n While interviewing a person, you came to know that this salary of previous job was 16k.\nYou decided to fact check his clames.\nYou called his ex-company but due to some complicatiothey could only give you their dataset of one year.\nYour goal is to predict what his salary of previous job was....(Press Im in to proceed)'
         label = tk.Label(self,text='Welcome! Mr.Homes')
         labelquestion = tk.Label(self,text=introduction)
         
