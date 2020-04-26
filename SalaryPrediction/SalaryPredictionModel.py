@@ -131,5 +131,5 @@ def PredictionModel(mat):
 
     
     #Predicting a new result with Linear Regression model
-    return(int(lin_reg.predict(mat)))
+    return(int(lin_reg2.predict(poly_reg.fit_transform(mat))))
 
